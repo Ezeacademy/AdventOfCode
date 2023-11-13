@@ -1,0 +1,80 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* style for flowbite modal close button */
+button[aria-label="Close"] {
+  color: #52525b;
+}
+
+.background_day_9 {
+  background-image: url('assets/rio.jpeg');
+  background-size: cover;
+  max-width: 900px;
+  min-height: 650px;
+}
+
+.wood_icon_day_9 {
+  background-image: url('assets/tablaMadera.png');
+  height: 5px;
+  width: 5px;
+}
+
+.background_day_9 {
+  background-image: url('assets/rio.jpeg');
+  background-size: cover;
+  max-width: 900px;
+  min-height: 650px;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+}
+
+.disabled-button {
+  color: gray;
+  font-size: 35px;
+}
+
+.enabled-button {
+  font-size: 35px;
+}
+
+@font-face {
+  font-family: 'ShareTechMono';
+  src: url('assets/fonts/ShareTechMono-Regular.ttf') format('truetype');
+}
+
+.background_day_10 {
+  background-size: cover;
+  max-width: 700px;
+  min-height: 580px;
+  background-position: center;
+  margin-left: 10%;
+}
+
+.terminal_font {
+  font-family: 'ShareTechMono', serif;
+  font-weight: bolder;
+  color: #57f9a3;
+  font-size: 12px;
+}
+
+.blur-overlay {
+  backdrop-filter: blur(800px);
+}
+
+.terminal_button {
+  position: fixed;
+  bottom: 15px;
+  right: 160px;
+  width: 40px;
+  height: 40px;
+}
+
+#display_content {
+  position: fixed;
+  top: 15%;
+  left: 15%;
+}
